@@ -7,28 +7,54 @@
 		id: "create_integrated_farming:chicken_roost"
 	}
 	id: "28E11357A94C6392"
+	images: [
+		{
+			height: 1.0d
+			image: "createfood:block/berry_cheesecake_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/fishing_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/faces/minecraft/chicken.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1C901D6957027EB8"]
-			id: "54326B24BD28FA83"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1314ACB18ADC1A7E"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7B5FD8E87F63C512"
-				item: { components: { "ftbquests:missing_item": "create_central_kitchen:cooking_guide" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
 			id: "1C901D6957027EB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BE46FE4FF07EAAF"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "0947BE2962C34896"
+					item: {
+						count: 1
+						id: "farmersdelight:bacon_sandwich"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
@@ -36,30 +62,6 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1C901D6957027EB8"]
-			id: "5192A23748C3AC21"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78546BA089E69640"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "27CEF993C81C6952"
-					item: { count: 1, id: "farmersdelight:cutting_board" }
-					type: "item"
-				}
-				{
-					id: "0D91F27FB483BCC5"
-					item: { count: 1, id: "create:belt_connector" }
-					type: "item"
-				}
-			]
-			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -82,8 +84,18 @@
 					item: { count: 1, id: "create:mechanical_arm" }
 					type: "item"
 				}
+				{
+					id: "49BEE0209381A1E9"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "78E02C515DB7AA89"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
 			]
-			x: -3.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -101,7 +113,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1C901D6957027EB8"]
@@ -112,13 +124,218 @@
 				table_id: 5001068052608706388L
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7C7E5B52E8A568E1"
 				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "686C1705E2FEC061"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B9EB9EB5B91B393"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CA76132FE9BFA48"
+				item: { count: 1, id: "create_integrated_farming:fishing_net" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "452AB65797BA37C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F23863B6EA48862"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D55A074545283A6"
+				item: { count: 1, id: "create_integrated_farming:roost" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C490456FC7E561C"]
+			id: "4106CAF7FC1EF1ED"
+			tasks: [{
+				id: "3284E5808ADE9DF6"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C490456FC7E561C"]
+			id: "1FFF9B91CA71694E"
+			tasks: [{
+				id: "49975C0F6E1E51ED"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C490456FC7E561C"]
+			id: "006C2440BE69D73B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3148048C037579C9"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "153EBA99F471189A"
+				item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7C490456FC7E561C"]
+			id: "67E511B88ADFC5BC"
+			tasks: [{
+				id: "6347236317A96B47"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:potions))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["410C2567BCB30109"]
+			id: "7B179AAB6FF5DA36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F86C7FFF0EEAF87"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "20F7BDC989807E78"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/knife)item_tag(farmersdelight:enchantable/knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5A6DF1C263F0DCAD"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:axes)item_tag(c:tools/axes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "6933441D38037E5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DFC8FC78CF485F8"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D86C962724FEA5A"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["452AB65797BA37C2"]
+			id: "14F9238BF932A5EB"
+			tasks: [{
+				id: "46D9354082EBDD73"
+				item: { count: 1, id: "create_integrated_farming:chicken_roost" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["686C1705E2FEC061"]
+			id: "1A75654A3BC541AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CBE3E54A5190928"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "11A7684303C4DBE0"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "21737EC1890B7DC3"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "64F767B9C68384D7"
+					item: { count: 1, id: "create_bic_bit:raw_herring" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6933441D38037E5A"]
+			id: "1087DA469F3A10E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "688A122211D80668"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "20E4C9D1633BB14F"
+					item: { count: 1, id: "createfood:berry_cream_cake_sweet_berry" }
+					type: "item"
+				}
+				{
+					id: "688FBC8C25E819DA"
+					item: { count: 1, id: "createfood:chocolate_cream_cake_butterscotch" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14F9238BF932A5EB"]
+			id: "59BF777461296B9A"
+			tasks: [{
+				count: 20L
+				id: "2C2D937295DA42A3"
+				item: { count: 1, id: "minecraft:egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
 		}
 	]
 }
