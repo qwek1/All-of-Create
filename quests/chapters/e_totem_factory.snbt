@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_totem_factory"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "minecraft:totem_of_undying"
+	}
+	id: "58DA1F2BB418E1A3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7159CFA999673677"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "6DDE4920AF4C1B5A"
+				item: { count: 1, id: "totemfactory:tumbaga_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["789DACC2AB92A2A3"]
+			id: "763C356859F85A65"
+			tasks: [{
+				id: "1836D336A5643879"
+				item: { count: 1, id: "totemfactory:totem_head_casing" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["789DACC2AB92A2A3"]
+			id: "5C583586C93CA3F7"
+			tasks: [{
+				id: "0749DE1697A100D9"
+				item: { count: 1, id: "totemfactory:totem_body_casing" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7159CFA999673677"]
+			id: "789DACC2AB92A2A3"
+			tasks: [
+				{
+					id: "6F2FABBE7E098D9E"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					id: "5DCC6128596F5AEA"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["763C356859F85A65"]
+			id: "3CC4FE9A91A90C05"
+			tasks: [{
+				id: "2266B746F42F5FA1"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:regeneration" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["763C356859F85A65"]
+			id: "0E4024BDB0EE2BEA"
+			tasks: [{
+				id: "00E1A62AB4223B5E"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0E4024BDB0EE2BEA"
+				"3CC4FE9A91A90C05"
+			]
+			id: "523854F15EBD30A0"
+			tasks: [{
+				id: "2D0C35204AAAA4EA"
+				item: { count: 1, id: "totemfactory:totem_head" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C583586C93CA3F7"]
+			id: "6164EF3330A0E75A"
+			tasks: [{
+				id: "253912D45E0C20C5"
+				item: { count: 1, id: "minecraft:ghast_tear" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C583586C93CA3F7"]
+			id: "383B1CC5757D8729"
+			tasks: [{
+				id: "74BC4EA91DE1F741"
+				item: { count: 1, id: "totemfactory:tumbaga_alloy" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6164EF3330A0E75A"
+				"383B1CC5757D8729"
+			]
+			id: "55443BEAD5DEAB6D"
+			tasks: [{
+				id: "5C09F13CEC83CC52"
+				item: { count: 1, id: "totemfactory:totem_body" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"523854F15EBD30A0"
+				"55443BEAD5DEAB6D"
+				"555C6ADC9EE42BD8"
+			]
+			id: "3088C3F2E1060189"
+			tasks: [{
+				id: "40ED1D9CFF6EA276"
+				item: { count: 1, id: "totemfactory:inactive_totem" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3088C3F2E1060189"]
+			id: "1F091A899BB5622B"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "6CCEA1FC1BACE799"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				type: "item"
+			}]
+			x: 10.2d
+			y: 0.0d
+		}
+		{
+			id: "555C6ADC9EE42BD8"
+			tasks: [{
+				count: 4L
+				id: "746022C8D64AA964"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3088C3F2E1060189"]
+			id: "360062DA71C3924A"
+			tasks: [{
+				count: 5L
+				id: "1C48F9C130797555"
+				item: { count: 1, id: "create:experience_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epump_dat_oil"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "createdieselgenerators:diesel_engine"
+	}
+	id: "06DB0353E8EA3593"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5CE618D90A0AF061"
+				"3A861B21F4724A9A"
+				"5F54692C554A45BE"
+			]
+			id: "496FC8106904193E"
+			rewards: [
+				{
+					id: "281C185543F00886"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC4D754536D88C7"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "51B72972B2A34382"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5CE618D90A0AF061"
+				"5F54692C554A45BE"
+			]
+			id: "5272D9AC88702DE2"
+			rewards: [
+				{
+					id: "6C72244A5ABBBD8F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AC50F6080C1941C"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "118BA0269DB8F06D"
+				item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5CE618D90A0AF061"]
+			id: "5C251AB7110F0E5F"
+			rewards: [
+				{
+					id: "2FE840D7529DF4AD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33B00014608113BF"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A5744228C8D11E6"
+				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "56F378317EFB975E"
+			rewards: [
+				{
+					id: "18179ED0A0B2C012"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "583F88C9C36B8D15"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3E50F8DEAE915D5E"
+					item: { count: 1, id: "createdieselgenerators:basin_lid" }
+					type: "item"
+				}
+				{
+					id: "4627B1BE30B17686"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56F378317EFB975E"]
+			id: "0FD8D9454B234451"
+			rewards: [
+				{
+					id: "50FA17F515F5FC55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5134671BD99F9BF3"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1B6BCE37EB7190EF"
+				item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "1209EAFCD7457303"
+			rewards: [{
+				id: "730CE8DBDDD24E09"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "2979BF3067916B70"
+				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "5F54692C554A45BE"
+			rewards: [
+				{
+					id: "775E33EAE47CB0AD"
+					type: "xp"
+					xp: 80
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F3E9FF014EBD8BC"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2F4DA8B3C7707FFE"
+				item: { count: 1, id: "createdieselgenerators:engine_silencer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "231C8943A649FD16"
+			rewards: [
+				{
+					id: "4684A4108791BC9C"
+					type: "xp"
+					xp: 80
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1701236EC253750A"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3BCBBA685843A0A2"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1209EAFCD7457303"]
+			id: "2047D5978329D0AB"
+			rewards: [
+				{
+					id: "24B365FA74DF5299"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "385E155EB43F5EF9"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "62D912CB16B7080C"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "6159B43A8B14318B"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "3AEE1749D2E8CCB6"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "38E43FA0130F67B8"
+					item: { count: 1, id: "createdieselgenerators:canister" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2047D5978329D0AB"]
+			id: "634B2ED978962892"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6428F67F16EFDB25"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "6470E1BF80AA6378"
+				item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"634B2ED978962892"
+				"6ABABF2B012DB63F"
+			]
+			id: "50298AF2ED77D186"
+			rewards: [{
+				id: "558CF9AC5B3794E9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0625E17A61F5F825"
+				item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"634B2ED978962892"
+				"6ABABF2B012DB63F"
+			]
+			id: "5CE618D90A0AF061"
+			rewards: [{
+				id: "6E62F2E2D1081A19"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5CA753F27AD65160"
+				item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["231C8943A649FD16"]
+			id: "6ABABF2B012DB63F"
+			rewards: [
+				{
+					id: "440F8807438574FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1135D0C3135BFDA2"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "55F5B161C910687D"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "3A861B21F4724A9A"
+			rewards: [
+				{
+					id: "581E9539662E90D3"
+					type: "xp"
+					xp: 80
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78F700891BCADA0B"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "580D0804F5BC737B"
+				item: { count: 1, id: "createdieselgenerators:engine_turbocharger" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+	]
+}

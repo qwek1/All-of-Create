@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "econnected"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "create_connected:encased_chain_cogwheel"
+	}
+	id: "3D80B24267ED3FC3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0AE0E5AA8FB69FE2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1AC35075C8ABD7EA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE0E5AA8FB69FE2"]
+			id: "66A35D1A11CBB671"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "725E9B85F5D42B1E"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "create_connected:control_chip"
+				criterion: ""
+				id: "0D433A0EB389D241"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66A35D1A11CBB671"]
+			id: "4DD8EC6663F695BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4963661127D325E6"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "create_connected:sequenced_pulse_generator"
+				criterion: ""
+				id: "48753E2AF0FE2C17"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE0E5AA8FB69FE2"]
+			id: "5435BF11EB742A73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E388FF5B709C972"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "create_connected:shear_pin"
+				criterion: ""
+				id: "015B761E1ABFB8D0"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE0E5AA8FB69FE2"]
+			id: "5C5DE3ECE4E39C5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DC392916DE07DC8"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "create_connected:overstress_clutch"
+				criterion: ""
+				id: "12E54D2C5E8ECD9C"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE0E5AA8FB69FE2"]
+			id: "785322C002100649"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C1C27CD224A16E4"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "create_connected:overpowered_brake_0"
+				criterion: ""
+				id: "18D6498C00E89732"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AE0E5AA8FB69FE2"]
+			id: "75A28517E08FE190"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63753BFBD595D018"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "create_connected:brass_gearbox"
+				criterion: ""
+				id: "4FE5CE181BF2847C"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,559 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cthe_mod_that_nobyd_understood_for_ages"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "tfmg:pumpjack_crank"
+	}
+	id: "62795316364125EB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27110A71DA670D63"]
+			id: "49901AE0CD7E39EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F5E48EE929A32A1"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5574BC320A807532"
+				item: { components: { "ftbquests:missing_item": "tfmg:rebar_formwork_block" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01C410421657C191"]
+			id: "60C91DB4E99253B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6643FCFA144388FB"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05196F165FC4AC52"
+				item: { count: 1, id: "tfmg:limesand" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60C91DB4E99253B8"]
+			id: "58BA699805459F6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00663C8144B6615D"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32B3F2C98D561948"
+				item: { count: 1, id: "tfmg:cement" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60C91DB4E99253B8"]
+			id: "70017E27DCAD7978"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7085A69350326D74"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "304499270AC83329"
+				item: { components: { "ftbquests:missing_item": "tfmg:blasting_mixture" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58BA699805459F6F"]
+			id: "27110A71DA670D63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4216F0A486746CE6"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "734BB633A59643F5"
+				item: { count: 1, id: "tfmg:liquid_concrete_bucket" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01C410421657C191"]
+			id: "1FCEADEF0E5436BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3211C3F7DA230B27"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "051A370EEFB5B968"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FCEADEF0E5436BD"]
+			id: "678A2C3870967BBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11EDA0B7EF9254CE"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D4238EDEE284CBA"
+				item: { count: 1, id: "tfmg:creosote_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FCEADEF0E5436BD"]
+			id: "306E26FB7650939B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50671F04023FB1D0"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E1A0F884B68E7BB"
+				item: { count: 1, id: "tfmg:exhaust" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["678A2C3870967BBE"]
+			id: "522D0547232105E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B581486867D1289"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B27ECCA9B96CB5D"
+				item: { count: 1, id: "tfmg:steel_casing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["522D0547232105E6"]
+			id: "65ED5F7E469449F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15824585CA10DBC4"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3F511383E1CEB928"
+				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01C410421657C191"]
+			id: "15F53F788D18518A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD656B5B2F6B759"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1699C1263694578E"
+					item: { count: 1, id: "tfmg:blast_furnace_output" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "3083C9A2B7F058DD"
+					item: { count: 1, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "594A974F661A96F3"
+					item: { count: 1, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15F53F788D18518A"]
+			id: "563B74BC50D924A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "425DC26861E1DEBC"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "32E5603162A5D82C"
+				item: { count: 1, id: "tfmg:molten_slag_bucket" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15F53F788D18518A"]
+			id: "511054E8740CDC84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "052284105D0F47C7"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5AC7D81C1D460857"
+				item: { count: 1, id: "tfmg:molten_steel_bucket" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["511054E8740CDC84"]
+			id: "24E234AFB1CE8B59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53A7430DE0285A99"
+				table_id: 5249651026717322459L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1610D18FCC526299"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["563B74BC50D924A2"]
+			id: "1283AD09A6377D92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B3D9C7D6095AFEC"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3544BA366CA2EAA0"
+				item: { count: 1, id: "tfmg:slag" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24E234AFB1CE8B59"]
+			id: "1D6E3B45533738C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6329A82ED15F2813"
+				table_id: 5499456467321392182L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BE751C4EB28ED13"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D6E3B45533738C3"]
+			id: "71151BB59F5C2307"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67BC3A33549CD493"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			tasks: [{
+				id: "192BDEDCC9B0A9B1"
+				item: { count: 1, id: "tfmg:surface_scanner" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "076C02684CB6D760"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65B324C19DAA2861"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "115F93D1E3F2DDC7"
+					item: { count: 1, id: "tfmg:machine_input" }
+					type: "item"
+				}
+				{
+					id: "03467EF028464010"
+					item: { count: 1, id: "tfmg:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "3A0305DD724D11FD"
+					item: { count: 1, id: "tfmg:pumpjack_base" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"71151BB59F5C2307"
+				"076C02684CB6D760"
+			]
+			id: "1E452DB4DCAD2939"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37F3D450D6B8030D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "159A109D6EAA3BE7"
+				item: { count: 1, id: "tfmg:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "01C410421657C191"
+			size: 1.5d
+			tasks: [{
+				id: "122601C59D9FC77E"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E452DB4DCAD2939"]
+			id: "2550A75D8A031F9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A7E83BF852AC222"
+				table_id: 5499456467321392182L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5C49BAF3F16D77FF"
+					item: { count: 1, id: "tfmg:steel_distillation_controller" }
+					type: "item"
+				}
+				{
+					id: "4089254DB7DF1CDB"
+					item: { count: 1, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2550A75D8A031F9E"]
+			id: "70A5D690D5F45789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51FD898C36511BE5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "23F7A47D6F97C68B"
+					item: { count: 1, id: "tfmg:heavy_oil_bucket" }
+					type: "item"
+				}
+				{
+					id: "2C2B21F438E54925"
+					item: { count: 1, id: "tfmg:kerosene_bucket" }
+					type: "item"
+				}
+				{
+					id: "243A3E93E4156188"
+					item: { count: 1, id: "tfmg:diesel_bucket" }
+					type: "item"
+				}
+				{
+					id: "1C8166577E747D57"
+					item: { count: 1, id: "tfmg:gasoline_bucket" }
+					type: "item"
+				}
+				{
+					id: "0F349BA8E3ACE31B"
+					item: { count: 1, id: "tfmg:naphtha_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70A5D690D5F45789"]
+			id: "0BB0533CA61648D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57FC5A36F0A2A760"
+				table_id: 5499456467321392182L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "61815F118422CBA0"
+					item: { components: { "ftbquests:missing_item": "tfmg:gasoline_engine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "30A8594E1F902D6F"
+					item: { components: { "ftbquests:missing_item": "tfmg:gasoline_engine_back" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "15956A2813C64BBA"
+					item: { count: 1, id: "tfmg:turbine_engine" }
+					type: "item"
+				}
+				{
+					id: "2247FA2495B23B76"
+					item: { components: { "ftbquests:missing_item": "tfmg:turbine_engine_back" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "354F388C6A3358AA"
+					item: { components: { "ftbquests:missing_item": "tfmg:lpg_engine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5B983FA7D6A8B95B"
+					item: { components: { "ftbquests:missing_item": "tfmg:lpg_engine_back" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0BB0533CA61648D9"]
+			id: "66EB092315C08AAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "698B7F97219B25C0"
+				table_id: 5499456467321392182L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "34B86AA9428BEFCF"
+					item: { components: { "ftbquests:missing_item": "tfmg:diesel_engine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7DCF6B3E106453AB"
+					item: { components: { "ftbquests:missing_item": "tfmg:diesel_engine_expansion" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70A5D690D5F45789"]
+			id: "1BAE590C1F42160D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B8614BD4E13BD6D"
+				table_id: 5499456467321392182L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3677CDB425AAF727"
+					item: { count: 1, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+				{
+					id: "107457E84E36D979"
+					item: { count: 1, id: "tfmg:steel_distillation_controller" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BAE590C1F42160D"]
+			id: "00A79CAA6844228D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55FD46EF3E042437"
+				table_id: 5499456467321392182L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "066A13CC2D64975F"
+				item: { count: 1, id: "tfmg:plastic_sheet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+	]
+}

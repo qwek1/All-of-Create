@@ -1,0 +1,212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6minecarts"
+	group: "62A749137B71D06F"
+	icon: {
+		id: "minecraft:minecart"
+	}
+	id: "1B0C12C08F8F51A6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73CBEFC51D900FE3"]
+			id: "17E6DCDBEEBAEEAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "458FB6EBBEF53833"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "7F864AD826B3D71A"
+				item: { count: 1, id: "minecraft:minecart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17E6DCDBEEBAEEAD"]
+			id: "323F20F8AFC2C633"
+			shape: "square"
+			tasks: [{
+				id: "073259728F870BA4"
+				item: { count: 1, id: "minecraft:tnt_minecart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17E6DCDBEEBAEEAD"]
+			id: "08D5EBEEC4FCBCD2"
+			shape: "square"
+			tasks: [{
+				id: "00685E2BC3C9F92F"
+				item: { count: 1, id: "minecraft:hopper_minecart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17E6DCDBEEBAEEAD"]
+			id: "7D20EAB7E4E34B45"
+			shape: "square"
+			tasks: [{
+				id: "4750C89F9F762612"
+				item: { count: 1, id: "minecraft:chest_minecart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17E6DCDBEEBAEEAD"]
+			id: "505C272F43942FDA"
+			rewards: [{
+				id: "27D51F9F9E1CB917"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7559A375CA505085"
+				item: { count: 1, id: "supplementaries:dispenser_minecart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17E6DCDBEEBAEEAD"]
+			id: "34BDEA7471099252"
+			shape: "square"
+			tasks: [{
+				id: "1E3F734FA81AF46D"
+				item: { count: 1, id: "minecraft:furnace_minecart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "73CBEFC51D900FE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "274C1C3BCB65B0A8"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "1BC2E16FC5CD519B"
+				item: { count: 1, id: "create:minecart_coupling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48673623C1866594"]
+			id: "281D6BAA6A343E88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "308215E7F8B2C5AA"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "495405F6F89605CB"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["281D6BAA6A343E88"]
+			id: "4F576C152529CBB1"
+			shape: "square"
+			tasks: [{
+				id: "15804F8928CE267A"
+				item: { count: 1, id: "create:controller_rail" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281D6BAA6A343E88"]
+			id: "40C70D05C46DCF4E"
+			shape: "square"
+			tasks: [{
+				id: "0359201430D27A06"
+				item: { count: 1, id: "minecraft:detector_rail" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["281D6BAA6A343E88"]
+			id: "2C7B4EE0E160A970"
+			shape: "square"
+			tasks: [{
+				id: "1752138F9A078273"
+				item: { count: 1, id: "minecraft:powered_rail" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["281D6BAA6A343E88"]
+			id: "092494276E7FD582"
+			shape: "square"
+			tasks: [{
+				id: "537A7A89632AFEFF"
+				item: { count: 1, id: "minecraft:activator_rail" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["281D6BAA6A343E88"]
+			id: "4F4E1DEE8F0200D6"
+			shape: "square"
+			tasks: [{
+				id: "74AEF2A8A24C8F11"
+				item: { count: 1, id: "minecraft:rail" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "48673623C1866594"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4744B84FB68A545C"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "1D148B50B848BA51"
+				item: { count: 1, id: "create:cart_assembler" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+	]
+}

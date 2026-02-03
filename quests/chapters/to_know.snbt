@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "to_know"
+	group: ""
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "3264D70F279EF89B"
+	images: [{
+		height: 2.0d
+		image: "allofcreate:textures/logo.png"
+		rotation: 0.0d
+		width: 4.528301886792453d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:stone"
+		}
+		id: "471AF5B3E41F6713"
+		tasks: [{
+			id: "65502B03244DE91B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
