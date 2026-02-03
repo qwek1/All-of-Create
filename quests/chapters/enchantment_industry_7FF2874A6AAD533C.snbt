@@ -1,0 +1,311 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchantment_industry_7FF2874A6AAD533C"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "create_enchantment_industry:blaze_enchanter"
+	}
+	id: "7FF2874A6AAD533C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54F157D3C8CB7557"]
+			id: "391FA9B8D6B130A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18902446D2103CAD"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "457D2F37AAFCF801"
+					table_id: 5499456467321392182L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "65B00A2193F63833"
+				item: { count: 1, id: "create:experience_nugget" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["391FA9B8D6B130A7"]
+			id: "00F10FDD120BC630"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "712A4CB3C50EDE2B"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70822031349ABAAB"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4772EE8819F6F6A2"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					id: "4CA6853F48D86D10"
+					item: { count: 1, id: "create:item_drain" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["391FA9B8D6B130A7"]
+			id: "13D833C11A71B131"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "525BC7EC90640466"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E40ADA4A3071A3E"
+				item: { count: 1, id: "create:experience_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13D833C11A71B131"]
+			id: "66FCECE2CEA842D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D9D676827338224"
+					table_id: 5249651026717322459L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "122E444C0CCAB2DC"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7DEB6DED68D94803"
+				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13D833C11A71B131"]
+			id: "4566D7BB620B517A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23311C4238B4CB8D"
+					table_id: 5249651026717322459L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51BBC977CF1966AF"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "210F9AC71C9B2890"
+				item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13D833C11A71B131"]
+			id: "2A5D792CD3695430"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B8EF05F45D4DF66"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17019C41FA9C1742"
+				item: { count: 1, id: "minecraft:lightning_rod" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A5D792CD3695430"]
+			id: "68AC478385F4DE6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FCE34446495FB45"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77B169631EE8C709"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "28ADB117100DD1BA"
+				item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01AAA5D33720CE80"]
+			id: "5A576D629B37BEAF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BDB338E70991900"
+					table_id: 5499456467321392182L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B5903D4E32BE9A4"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2E7D6D8D3721A41F"
+				item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13D833C11A71B131"]
+			id: "01AAA5D33720CE80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0495B4E812237E6F"
+					table_id: 5249651026717322459L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4568BFA0FFB7B57C"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "174D24944BA7DEAD"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+				{
+					id: "76A1FD4994A3C076"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["391FA9B8D6B130A7"]
+			id: "72C5E74B15EFB67A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50A9F13F4B6747C3"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E0BDEE70315D23"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0DC0CD2D423C969F"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "54F157D3C8CB7557"
+			rewards: [
+				{
+					id: "698D0965A5146472"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "064E30913BD012B4"
+					item: {
+						components: {
+							"someassemblyrequired:sandwich_contents": [
+								{
+									count: 1
+									id: "someassemblyrequired:bread_slice"
+								}
+								{
+									count: 1
+									id: "someassemblyrequired:tomato_slices"
+								}
+								{
+									count: 1
+									id: "farmersdelight:cabbage_leaf"
+								}
+								{
+									count: 1
+									id: "farmersdelight:cooked_bacon"
+								}
+								{
+									count: 1
+									id: "someassemblyrequired:bread_slice"
+								}
+							]
+						}
+						count: 1
+						id: "someassemblyrequired:sandwich"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C6F7E8DF3ABBCDF"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+}

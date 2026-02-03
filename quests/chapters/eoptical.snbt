@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eoptical"
+	group: "2F8B068425AF05D4"
+	id: "34B888C53AB8ADDF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

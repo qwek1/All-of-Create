@@ -1,0 +1,38 @@
+{
+	id: "45675CE5A54BE754"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 10
+			id: "733F5438367DDD49"
+			item: {
+				count: 1
+				id: "create_things_and_misc:experience_sheet"
+			}
+		}
+		{
+			count: 12
+			id: "1FE271076E8C697E"
+			item: {
+				count: 1
+				id: "create:experience_nugget"
+			}
+		}
+		{
+			id: "4CFFEE69EAF3DA0E"
+			type: "xp"
+			xp: 100
+		}
+		{
+			id: "39D2B6DB45011D0F"
+			type: "xp"
+			xp: 500
+		}
+		{
+			id: "1E4B85D4AB7A71E5"
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+}

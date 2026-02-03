@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "fun_additions"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "create:cardboard_helmet"
+	}
+	id: "5AEA78F0EB1C5190"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15FA061AA0E7C2E6"
+			rewards: [{
+				id: "6669B098D9452372"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32832F9FCC1A42D3"
+				item: { count: 1, id: "create_things_and_misc:sprinkler" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "205DCDADC7B500B9"
+			rewards: [{
+				id: "5FF3DB5B82086686"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5254527325B1F219"
+				item: { count: 1, id: "create:extendo_grip" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "00F11AE1E586D83D"
+			rewards: [{
+				id: "1297BF7386F047F8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07F923188419D3B7"
+				item: { count: 1, id: "create:potato_cannon" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "2C770179FF6B1F73"
+			rewards: [{
+				id: "3CA4E126998F92EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60EBF2BAF0AAE553"
+				item: { components: { "ftbquests:missing_item": "create_logistics:item_silo" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "6AAC04F1D0ECC1D5"
+			rewards: [{
+				id: "0BC50BA1D592BF9D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58F3629AAB4AEAF9"
+				item: { components: { "ftbquests:missing_item": "create_tweaked_controllers:tweaked_linked_controller" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "2E31F85F781C4BCC"
+			rewards: [{
+				id: "4CD8FDF930400EEC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53F98B05D67E91CC"
+				item: { count: 1, id: "create_sa:grapplin_whisk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "01725D55B19D3E0F"
+			rewards: [{
+				id: "57DDFED24D67A108"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E5351C70898DE69"
+				item: { components: { "ftbquests:missing_item": "moped:copper_moped_item" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "4EA05FE73FB4BB21"
+			rewards: [{
+				id: "58C8ACF5DAD4D4A3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B743F8EA890CE8E"
+				item: { count: 1, id: "create_connected:empty_fan_catalyst" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "37760181A25650CE"
+			rewards: [{
+				id: "359603D2F8C8FC7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06E54F1415478E48"
+				item: { count: 1, id: "create_pattern_schematics:empty_pattern_schematic" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "66C2E7174AD6111D"
+			rewards: [{
+				id: "51B45BE03ACF3FF0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D0BDBFFFEEE70CD"
+				item: { components: { "ftbquests:missing_item": "create_kart:kart_red" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "07232DF817CEE543"
+			rewards: [{
+				id: "6AAD8025150F9892"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3585E6379E9CEE08"
+					item: { components: { "ftbquests:missing_item": "create_security:card_inscriber" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "567156BE8C07B81D"
+					item: { components: { "ftbquests:missing_item": "create_security:card_reader" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "65BA20E196C6413C"
+					item: { components: { "ftbquests:missing_item": "create_security:blank_card" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "39F463F266C9A44C"
+			rewards: [{
+				id: "261DE4AF4EE93998"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "663AC181E2BD491E"
+					item: { components: { "ftbquests:missing_item": "create_security:blank_ticket" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "04DB985CF7E0F75E"
+					item: { components: { "ftbquests:missing_item": "create_security:ticket_gate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "38419FFA03E72E3A"
+			rewards: [{
+				id: "7361A757B6174886"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BDEB23787268B40"
+				item: { count: 1, id: "create_sa:block_picker" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "477E6B9A9E264637"
+			rewards: [{
+				id: "45382D80BA83FE5C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FE78CF57D33BA35"
+				item: { count: 1, id: "create_sa:portable_drill" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "606349BB488D2422"
+			tasks: [
+				{
+					id: "277E76BF0B8D1008"
+					item: { count: 1, id: "create_hypertube:hypertube" }
+					type: "item"
+				}
+				{
+					id: "74546C3836BCD2D5"
+					item: { count: 1, id: "create_hypertube:hypertube_entrance" }
+					type: "item"
+				}
+				{
+					id: "0B3F84A506248E81"
+					item: { count: 1, id: "create_hypertube:hypertube_accelerator" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+	]
+}
