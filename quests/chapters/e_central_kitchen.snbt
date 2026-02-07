@@ -337,5 +337,56 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			dependencies: ["1C901D6957027EB8"]
+			id: "0E4AC2D4FA50A4E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6419C8AC1DBD9E49"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C0B5178A6CD8B39"
+				item: { count: 1, id: "someassemblyrequired:sandwiching_station" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E4AC2D4FA50A4E2"]
+			id: "071F9DA863D5E146"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0839397D146711CF"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21320F1E8B26E8E3"
+				item: { components: { "someassemblyrequired:sandwich_contents": [ { count: 1, id: "someassemblyrequired:bread_slice" }, { count: 1, id: "farmersdelight:cooked_chicken_cuts" }, { count: 1, id: "someassemblyrequired:bread_slice" } ] }, count: 1, id: "someassemblyrequired:sandwich" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E4AC2D4FA50A4E2"]
+			id: "302167AFA048184F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F939382DC97A9FB"
+				table_id: 5001068052608706388L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "10C042D9A4248B66"
+				item: { components: { "someassemblyrequired:sandwich_contents": [ { count: 1, id: "someassemblyrequired:burger_bun_bottom" }, { count: 1, id: "farmersdelight:beef_patty" }, { count: 1, id: "farmersdelight:cabbage_leaf" }, { count: 1, id: "someassemblyrequired:tomato_slices" }, { count: 1, id: "someassemblyrequired:sliced_onion" }, { count: 1, id: "someassemblyrequired:burger_bun_top" } ] }, count: 1, id: "someassemblyrequired:sandwich" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
 	]
 }

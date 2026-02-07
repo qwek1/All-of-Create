@@ -1,0 +1,495 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blaze_burner_fuels"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "create_blaze_burner_fuels:superheated_blaze_core"
+	}
+	id: "575734E000B89C62"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "04CEE0CA932DF671"
+			tasks: [{
+				id: "2302D9494ED14FD2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "3C2D6F3F116122BC"
+			tasks: [{
+				id: "7332FC8CC9183620"
+				item: { count: 1, id: "create_blaze_burner_fuels:kindling_sticks" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2D6F3F116122BC"]
+			id: "5DC6203AE9661C6A"
+			tasks: [{
+				id: "69B396F5E06F1B8B"
+				item: { count: 1, id: "create_blaze_burner_fuels:stick_bundle" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E006913B03A715B"]
+			id: "334E09BB534F212D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "120BA06FF1437033"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "68178381E5D1C8D1"
+					item: { count: 1, id: "create_blaze_burner_fuels:fiery_coal" }
+					type: "item"
+				}
+				{
+					id: "6AB75DC722BD3E71"
+					item: { count: 1, id: "create_blaze_burner_fuels:fiery_charcoal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "7FF90225CFF62321"
+			tasks: [
+				{
+					id: "17D523224EC3D0C2"
+					item: { count: 1, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					id: "2C35B3CF5BD8A1B3"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FF90225CFF62321"]
+			id: "4E006913B03A715B"
+			tasks: [
+				{
+					id: "53B1C94FB7883AE2"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					id: "734A2AD21BA4017C"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "0512ADDB7E6659CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F8E661C370E679E"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "591B8411F0E3AB82"
+					item: { count: 1, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					id: "5DC26169E0E99B81"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					id: "57094E580E16A369"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6506DD1F1A8F79A1"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0512ADDB7E6659CA"]
+			id: "47647C1D9299B79D"
+			tasks: [{
+				id: "542204FF79A0D103"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47647C1D9299B79D"]
+			id: "5F6C37E2546789BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "046D7522F07FC50B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "072CC6A8477865C4"
+					item: { count: 1, id: "create_blaze_burner_fuels:coal_briquettes" }
+					type: "item"
+				}
+				{
+					id: "52D07CA500F6F6DE"
+					item: { count: 1, id: "create_blaze_burner_fuels:charcoal_briquettes" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "2109B036CB2EB0D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C9E8691B6545475"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "283C7A3CEDBA88CB"
+				item: { count: 1, id: "minecraft:magma_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2109B036CB2EB0D6"]
+			id: "33EB2798CA8B5B44"
+			tasks: [{
+				id: "7D7A6587B5ADA503"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33EB2798CA8B5B44"]
+			id: "0C15B829B4F22CF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5271EDA5DF713E8A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0A21F3A273F4A83F"
+				item: { count: 1, id: "create_blaze_burner_fuels:blazing_rocks" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "483463A688C17C36"
+			tasks: [{
+				id: "2697D7D826BC160E"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27FF565BF0127780"]
+			id: "4BCFB8B54450D011"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "402AADE721782A93"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "55DC72F5765E2654"
+				item: { count: 1, id: "create_blaze_burner_fuels:coal_coke" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4BCFB8B54450D011"]
+			id: "02D5439ACE50EC34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F9814693E5E6C42"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "12EB062CCD506CFC"
+				item: { count: 1, id: "create_blaze_burner_fuels:refined_coal_coke" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["483463A688C17C36"]
+			id: "27FF565BF0127780"
+			tasks: [
+				{
+					id: "6C6D03D44E51FCDA"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "634A6A3E0F68CAD4"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "41374A60BC001BEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "004C5DDD27F19E24"
+				table_id: 5001068052608706388L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "2FF6A502AF807AB7"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "67E8B2C19C2D6A4A"
+					item: { count: 1, id: "minecraft:moss_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6F6DB13403C7784F"
+					item: { count: 1, id: "minecraft:mud" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41374A60BC001BEE"]
+			id: "5071FAFF85324148"
+			tasks: [{
+				id: "19D25931B33245AE"
+				item: { count: 1, id: "create_blaze_burner_fuels:peat" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5071FAFF85324148"]
+			id: "1A9BDF6B88E5A7A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448616C34619AF13"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60CCBC9FC55922E8"
+				item: { count: 1, id: "create_blaze_burner_fuels:peat_briquettes" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04CEE0CA932DF671"]
+			id: "76B9A5C1355E0C38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DA1BE0075BF8AB1"
+				table_id: 5001068052608706388L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "67FA9A409B869C8E"
+					item: { count: 1, id: "create:sturdy_sheet" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "645097EB3E8D3B9F"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+				{
+					id: "33F05543B8E5A13D"
+					item: { count: 1, id: "create:cinder_flour" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "595FA76F01A1B75E"
+					item: { count: 1, id: "minecraft:tinted_glass" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76B9A5C1355E0C38"]
+			id: "16C68DA939A28FCB"
+			tasks: [{
+				id: "6F174812D383D325"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16C68DA939A28FCB"]
+			id: "50AC5D9635367390"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "675BFDD5DD40A6CF"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "519671792EC139DA"
+				item: { count: 1, id: "create_blaze_burner_fuels:inactive_blaze_core" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50AC5D9635367390"]
+			id: "69711045D959224B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32286B6EEEF9EE3A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "466A8732D7167E8D"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+				{
+					id: "0A9EACB08758DFD3"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+				{
+					id: "6A91BF5CB8A38B22"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69711045D959224B"]
+			id: "1B7DD4402C5CD447"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B1FE3143706C093"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "039DD696FC256C5D"
+				item: { count: 1, id: "create_blaze_burner_fuels:blaze_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B7DD4402C5CD447"]
+			id: "0D49595D9B86A794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "091480B84289C2CB"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "21AE1B270AB62AAF"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					id: "0B6FC6AC6C6074EE"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D49595D9B86A794"]
+			id: "5B1153E41E67209F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44CD937389E4ECF9"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53BAAA09A2786654"
+				item: { count: 1, id: "create_blaze_burner_fuels:superheated_blaze_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+}

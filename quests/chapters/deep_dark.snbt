@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_dark"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "create_deep_dark:echo_block"
+	}
+	id: "4C168A2CF5F9701E"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/netherite_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/echo_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create_deep_dark:item/echo_cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "603AAE60ABAEB20E"
+			rewards: [
+				{
+					count: 12
+					id: "14588454B5ACFCF6"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "5533248388199FE6"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FB3574CCC117C45"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["603AAE60ABAEB20E"]
+			id: "1FE8EA6FB9329269"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E6AF105890FDD4"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5CA8445B62C0E413"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE8EA6FB9329269"]
+			id: "34B833D58C45952C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D85573336EC3DF3"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0E4F2324C0225A6C"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "0DF482B8A12AE4AD"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "582F5B2C1426A10E"
+					item: { count: 1, id: "create:blaze_cake" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34B833D58C45952C"]
+			id: "59A9B11E9BA6DF4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE5EDB403798BA8"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "023948CA8FD8F996"
+				item: { count: 1, id: "create_deep_dark:molten_echo_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59A9B11E9BA6DF4E"]
+			id: "36ECE457C7EB0613"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65FB6D9A5E3AE333"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34B226FB8DB92F6D"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36ECE457C7EB0613"]
+			id: "57B1282C14EDF096"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49C834330A16C173"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7DB647286A4AF35D"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					id: "0A215E8449BC4D68"
+					item: { count: 1, id: "create_deep_dark:molten_echo_bucket" }
+					type: "item"
+				}
+				{
+					id: "1F3C3903C383D000"
+					item: { count: 1, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "417B185420156C47"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B1282C14EDF096"]
+			id: "6D5F584A4C90B71D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58B200B2E8521D2B"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "46161B6B6C1E88D6"
+				item: { count: 1, id: "create_deep_dark:echo_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5F584A4C90B71D"]
+			id: "13C3C7E74182F8EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36411BB3D190AEC8"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4E6140AD1992E60D"
+					item: { count: 1, id: "create_deep_dark:echo_armor_helmet" }
+					type: "item"
+				}
+				{
+					id: "5023B11E48F3E556"
+					item: { count: 1, id: "create_deep_dark:echo_armor_chestplate" }
+					type: "item"
+				}
+				{
+					id: "73CAF1A729EA71D6"
+					item: { count: 1, id: "create_deep_dark:echo_armor_leggings" }
+					type: "item"
+				}
+				{
+					id: "1748FF7206A20A29"
+					item: { count: 1, id: "create_deep_dark:echo_armor_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D5F584A4C90B71D"]
+			id: "010925A7252F54C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AAE319C6FD35A77"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DB4C47BC3F99D93"
+				item: { count: 1, id: "create_deep_dark:echo_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A9B11E9BA6DF4E"]
+			id: "2624155041900C4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "011CD484D078564A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20897FAFF58DF431"
+				item: { count: 1, id: "create_deep_dark:echo_cake" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+}
