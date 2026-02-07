@@ -4,14 +4,6 @@
 	order_index: 2
 	rewards: [
 		{
-			count: 10
-			id: "733F5438367DDD49"
-			item: {
-				count: 1
-				id: "create_things_and_misc:experience_sheet"
-			}
-		}
-		{
 			count: 12
 			id: "1FE271076E8C697E"
 			item: {
