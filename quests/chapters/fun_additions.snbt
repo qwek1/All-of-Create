@@ -7,7 +7,7 @@
 		id: "create:cardboard_helmet"
 	}
 	id: "5AEA78F0EB1C5190"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -63,27 +63,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "60EBF2BAF0AAE553"
-				item: { components: { "ftbquests:missing_item": "create_logistics:item_silo" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4F66B5AC2BDD1582"
+				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
 			x: -5.5d
 			y: -2.0d
-		}
-		{
-			id: "6AAC04F1D0ECC1D5"
-			rewards: [{
-				id: "0BC50BA1D592BF9D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "58F3629AAB4AEAF9"
-				item: { components: { "ftbquests:missing_item": "create_tweaked_controllers:tweaked_linked_controller" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.0d
 		}
 		{
 			id: "2E31F85F781C4BCC"
@@ -107,11 +92,18 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "5E5351C70898DE69"
-				item: { components: { "ftbquests:missing_item": "moped:copper_moped_item" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E5351C70898DE69"
+					item: { count: 1, id: "bits_n_bobs:small_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "1EA0C8FC9DD6919D"
+					item: { count: 1, id: "bits_n_bobs:large_flanged_cogwheel" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -0.5d
 		}
@@ -152,11 +144,28 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "4D0BDBFFFEEE70CD"
-				item: { components: { "ftbquests:missing_item": "create_kart:kart_red" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D0BDBFFFEEE70CD"
+					item: { count: 1, id: "create_fantasizing:andesite_crate" }
+					type: "item"
+				}
+				{
+					id: "12A2A726C5ABDAE6"
+					item: { count: 1, id: "create_fantasizing:iron_crate" }
+					type: "item"
+				}
+				{
+					id: "5951E224A5C4009B"
+					item: { count: 1, id: "create_fantasizing:brass_crate" }
+					type: "item"
+				}
+				{
+					id: "51F335C37BB6CC29"
+					item: { count: 1, id: "create_fantasizing:sturdy_crate" }
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 1.0d
 		}
@@ -169,18 +178,18 @@
 			}]
 			tasks: [
 				{
-					id: "3585E6379E9CEE08"
-					item: { components: { "ftbquests:missing_item": "create_security:card_inscriber" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "567156BE8C07B81D"
-					item: { components: { "ftbquests:missing_item": "create_security:card_reader" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					id: "65BA20E196C6413C"
-					item: { components: { "ftbquests:missing_item": "create_security:blank_card" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "create_things_and_misc:card_press" }
+					type: "item"
+				}
+				{
+					id: "77D63AD7242EBFA8"
+					item: { count: 1, id: "create_things_and_misc:card_reader" }
+					type: "item"
+				}
+				{
+					id: "084B1192348386A7"
+					item: { count: 1, id: "create_things_and_misc:empty_card" }
 					type: "item"
 				}
 			]
@@ -194,18 +203,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "663AC181E2BD491E"
-					item: { components: { "ftbquests:missing_item": "create_security:blank_ticket" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "04DB985CF7E0F75E"
-					item: { components: { "ftbquests:missing_item": "create_security:ticket_gate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6A08B9A267EA1543"
+				item: { count: 1, id: "createtransmission:transmission_chain" }
+				type: "item"
+			}]
 			x: 0.5d
 			y: -2.0d
 		}
@@ -217,8 +219,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "6BDEB23787268B40"
-				item: { count: 1, id: "create_sa:block_picker" }
+				id: "3D1CA6A62EDC161A"
+				item: { count: 1, id: "bits_n_bobs:chain_pulley" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -241,6 +243,11 @@
 		}
 		{
 			id: "606349BB488D2422"
+			rewards: [{
+				id: "15DF0E2BC2F53D70"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "277E76BF0B8D1008"
@@ -260,6 +267,21 @@
 			]
 			x: -2.5d
 			y: -2.0d
+		}
+		{
+			id: "109DED9EC2176A5F"
+			rewards: [{
+				id: "5134F6FBF6A01D50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "25CA8376551C1C2A"
+				item: { count: 1, id: "create_fantasizing:transporter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 }
