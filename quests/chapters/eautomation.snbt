@@ -552,5 +552,100 @@
 			x: 5.5d
 			y: -1.0d
 		}
+		{
+			dependencies: [
+				"5523D11E085D2DB2"
+				"39B9C6EA6CB9EFFE"
+			]
+			id: "39934351E037A339"
+			tasks: [{
+				count: 5000L
+				id: "540DE7A09CCA762F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:logs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "40231EE67E636F2C"
+			tasks: [{
+				id: "4C95C6BFA8F500C7"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:saplings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40231EE67E636F2C"]
+			id: "39B9C6EA6CB9EFFE"
+			tasks: [{
+				id: "09ED741DD0BA88D4"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5523D11E085D2DB2"
+				"7C03E6F896F19ACD"
+			]
+			id: "6664F058FA9BA452"
+			tasks: [{
+				id: "79BDB7AE1D3EF12B"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4ACDDE83506CF595"]
+			id: "7C03E6F896F19ACD"
+			tasks: [
+				{
+					id: "5A82806E06F412B0"
+					item: { count: 1, id: "minecraft:magma_block" }
+					type: "item"
+				}
+				{
+					id: "347078DBE02357F6"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "6AB3F3B94427C066"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "4ACDDE83506CF595"
+			tasks: [
+				{
+					id: "09C519ABD11DD29B"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+				{
+					id: "69BAC5ADB7C7F7F5"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "312C8CC37C7FC72B"
+					item: { count: 1, id: "create_connected:fan_seething_catalyst" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
+		}
 	]
 }
