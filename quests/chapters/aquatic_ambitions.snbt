@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquatic_ambitions"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "minecraft:conduit"
+	}
+	id: "4FC4A90AD91C4293"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/trident"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/conduit_power.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -6.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/faces/upgrade_aquatic/thrasher.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47B63CD140F2910E"
+			rewards: [{
+				count: 5
+				id: "6837B5059600A0D8"
+				item: {
+					count: 1
+					id: "createfood:fishcake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB8CCEAAEBB079C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47B63CD140F2910E"]
+			id: "0F1D3205FB83E2D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CD9A95425A50DD9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1C3ECE17BC9FEBC7"
+					item: { count: 1, id: "minecraft:heart_of_the_sea" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5552D1509C17F3D4"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+				{
+					id: "6DEE8B75C81FE16A"
+					item: { count: 1, id: "minecraft:conduit" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24D3F7C523F5AB0B"]
+			id: "540DCA232C7547C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B3F4A0B823E3E05"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "565C2D7E0D0969E7"
+					item: { count: 1, id: "minecraft:conduit" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2BACE71715461A4A"
+					item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy_rod" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "670A3ED9D8FBCA00"
+					item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy" }
+					type: "item"
+				}
+				{
+					id: "0B17499866AE2A3D"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47B63CD140F2910E"]
+			id: "5912B0FF5824D8FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F3FB48AAD4E305D"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 30L
+					id: "5B65FA2E96D319BC"
+					item: { count: 1, id: "minecraft:prismarine" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "56A083CA568B2557"
+					item: { count: 1, id: "create:copper_nugget" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5912B0FF5824D8FD"
+				"0F1D3205FB83E2D3"
+			]
+			id: "24D3F7C523F5AB0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37418BC32F10EC97"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1F8E73A9BFB4D45A"
+					item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy" }
+					type: "item"
+				}
+				{
+					id: "523B1EB27AFB36ED"
+					item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy_rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["540DCA232C7547C7"]
+			id: "53BCB756649D4D2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21F8B9B5702FBE3A"
+					table_id: 5001068052608706388L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5598C2BCEC361D4A"
+					table_id: 5249651026717322459L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "3BBCB1E4FB6A9040"
+				item: { count: 1, id: "create_aquatic_ambitions:mechanical_conduit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["157DAE6EC4155F82"]
+			id: "1970F0B8CFF70E5B"
+			tasks: [{
+				id: "2BF2C9CAAAF647EF"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47B63CD140F2910E"]
+			id: "157DAE6EC4155F82"
+			tasks: [{
+				count: 30L
+				id: "72611B8B563EFE1C"
+				item: { count: 1, id: "create:limestone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1970F0B8CFF70E5B"]
+			id: "76E85F7EFA6EA920"
+			tasks: [{
+				id: "030514702E91ACAD"
+				item: { count: 1, id: "create_aquatic_ambitions:suspicious_rock" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76E85F7EFA6EA920"]
+			id: "4DBD746A7DBD0A18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68F3168E322C164C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "42180A0EB94EC1F9"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "7B9889ED18404BB8"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["53BCB756649D4D2B"]
+			id: "73CA3C62CBC41E94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F1C87B3D8524FD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "505E5A45CEF58D9D"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "6AC5445EBDAEB350"
+					item: { count: 1, id: "create_aquatic_ambitions:mechanical_conduit" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"73CA3C62CBC41E94"
+				"4DBD746A7DBD0A18"
+			]
+			id: "36D50A6AFFF2346F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AD887ED3C571760"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "336CBD852580935A"
+				item: { count: 1, id: "minecraft:nautilus_shell" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["24351C29FD9BAD0B"]
+			id: "525FD6B365FB7B50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "300DC9B2EF29309C"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1788201CB77B3D58"
+				item: { count: 1, id: "create_aquatic_ambitions:spiky_shell" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["36D50A6AFFF2346F"]
+			id: "24351C29FD9BAD0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A874E20D970AE6C"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4913A4373AE18128"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69519BFDAAA790DE"]
+			id: "3C50975A0686EB72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EEF1D641D5D119C"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E10E28B49876CBF"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:awkward" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53BCB756649D4D2B"]
+			id: "69519BFDAAA790DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20FDD313E6DF4D25"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1B9D18576534AF02"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "2EA7B5EAF5CFBD7E"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "59F4DD5EA17A170C"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+				{
+					id: "7FD526292945AA22"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "78A8ED8BF823C72A"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3C50975A0686EB72"]
+			id: "760251538F4200CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66DE30253AD78270"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "122C21C2E1C11F41"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:potions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["760251538F4200CF"]
+			icon: {
+				components: {
+					"ftbquests:icon": "creategarnished:textures/mob_effect/volt_struck.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E5D62726D846A63"
+			tasks: [{
+				id: "487C3BE0859DA0D9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["525FD6B365FB7B50"]
+			id: "36B4BBB6EB3B49E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01AF6238F813EC12"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EC74A3B07E4E55C"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "71DBF5137B4880DB"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["73CA3C62CBC41E94"]
+			id: "2BC0A0977CD94919"
+			tasks: [{
+				count: 10L
+				id: "183A684FF98CB7E2"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BC0A0977CD94919"]
+			id: "7D638436555FE784"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F5D32E9CC9801FF"
+				table_id: 5001068052608706388L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B57BB0426FB9401"
+				item: { count: 1, id: "minecraft:prismarine_shard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["73CA3C62CBC41E94"]
+			id: "1042F8DDE3975030"
+			tasks: [{
+				count: 10L
+				id: "37E756F36E4C0A5A"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1042F8DDE3975030"]
+			id: "76685EA6C13CDC38"
+			tasks: [{
+				id: "0787567CAA4606D3"
+				item: { count: 1, id: "minecraft:prismarine_crystals" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+	]
+}
