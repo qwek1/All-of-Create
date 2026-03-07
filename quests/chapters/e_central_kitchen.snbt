@@ -291,12 +291,6 @@
 					item: { count: 1, id: "minecraft:cod" }
 					type: "item"
 				}
-				{
-					count: 10L
-					id: "64F767B9C68384D7"
-					item: { count: 1, id: "create_bic_bit:raw_herring" }
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 4.5d
