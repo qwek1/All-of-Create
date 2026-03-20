@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_optical"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "create_optical:heavy_optical_receptor"
+	}
+	id: "6DA0244FAF097534"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "create_optical:item/incomplete_optical_device"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7B0D85DA0CAD53C8"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "34FA9F80E506FF2E"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C268464F6DE1885"]
+			id: "46085B16F9FA9ADC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6399280CCF3B6568"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1638C38606768513"
+				item: { count: 1, id: "create_optical:optical_source" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65D9E2BA22CC2DBC"]
+			id: "56D9AB16B8C054B0"
+			tasks: [{
+				id: "7AA70417ED969CD7"
+				item: { count: 1, id: "create_optical:optical_receptor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["259BA7ADACF10913"]
+			id: "23D0117E34FA7A51"
+			tasks: [{
+				id: "079D8D005A96B1CB"
+				item: { count: 1, id: "create_optical:heavy_optical_receptor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49E7C672E2F02981"]
+			id: "622B5B4CD721D8B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "157965CA4A090B2F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "695870D314A7A1F7"
+				item: { count: 1, id: "create_optical:encased_mirror" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10A822934956DF48"]
+			id: "0145DD635CA8F16F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F106585CFFF1AA5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7957D2AF79B9C18F"
+				item: { count: 1, id: "create_optical:absorption_polarizing_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["49E7C672E2F02981"]
+			id: "754F9B65DF59C1C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BC32CC47079A25C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "279711149FE1C7FA"
+				item: { count: 1, id: "create_optical:polarizing_beam_splitter_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F2EBB6012DD9278"]
+			id: "4865C6C955CF8233"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EDA21FB8782D085"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7FA85ED356A8BF14"
+				item: { count: 1, id: "create_optical:optical_sensor" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0360911A620C6613"]
+			id: "0AC8942A131FCC34"
+			tasks: [{
+				id: "411B5C20D6E2C68A"
+				item: { count: 1, id: "create_optical:beam_condenser" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C268464F6DE1885"]
+			id: "6F5D431065508C0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17CE5FC85B7C3FDA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F38403A8FC988D5"
+				item: { count: 1, id: "create_optical:beam_focuser" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78EA25B85A869DD3"]
+			id: "2F4D033C31346B10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "742AF329FD7CDEA0"
+				table_id: 5499456467321392182L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "667E3B2F821D5C53"
+				item: { count: 1, id: "create_optical:hologram_source" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C268464F6DE1885"]
+			id: "714382D8E9E06DB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B57EA755E4CD5E6"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6B400191621EB2A7"
+				item: { count: 1, id: "create_optical:beam_reader" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C268464F6DE1885"]
+			id: "65C171B1CD610846"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ACA52DEE3D33CE2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66C4D74CA00ECD00"
+				item: { count: 1, id: "create_optical:beam_modulator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CC5FD50C31A14CC"]
+			id: "7C268464F6DE1885"
+			tasks: [{
+				id: "0A1F7535587200B4"
+				item: { count: 1, id: "create_optical:optical_device" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6934E2BC749EB926"]
+			id: "65D9E2BA22CC2DBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A41B7261B61A730"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09AEA85431200186"
+				item: { count: 1, id: "create_optical:copper_coil" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6934E2BC749EB926"]
+			id: "259BA7ADACF10913"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A1565B074914218"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3945A00B8D410204"
+				item: { count: 1, id: "create_optical:golden_coil" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6934E2BC749EB926"]
+			id: "78EA25B85A869DD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F51CB02D5F8B0C7"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "70623D03FA02998A"
+				item: { count: 1, id: "create_optical:zinc_coil" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6934E2BC749EB926"]
+			id: "0360911A620C6613"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A7F9FD2A9002401"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6309AA4F6B030F0A"
+				item: { count: 1, id: "create_optical:rose_quartz_catalyst_coil" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E48DFA6774450FB"]
+			id: "49E7C672E2F02981"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D98F7C45001CDAD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5AF1F2E83154B7F6"
+				item: { count: 1, id: "create_optical:mirror" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E9ACA08610D9507"]
+			id: "10A822934956DF48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09C2D2E4E79C74F3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "033BF39ED7B8B340"
+				item: { count: 1, id: "create_optical:polarizing_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B0D85DA0CAD53C8"]
+			id: "1BE84A67C4F49130"
+			tasks: [{
+				count: 5L
+				id: "3F6B8869E9753F3A"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B0D85DA0CAD53C8"]
+			id: "3D988137341AE75D"
+			tasks: [{
+				id: "001B94D6270088FF"
+				item: { count: 1, id: "minecraft:tinted_glass" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7C268464F6DE1885"
+				"10A822934956DF48"
+			]
+			id: "6057AD45BCBCD504"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "193E601CA17D3B7B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A9D94DFF99717F9"
+				item: { count: 1, id: "create_optical:thermal_optical_source" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B0D85DA0CAD53C8"]
+			id: "6934E2BC749EB926"
+			size: 1.0d
+			tasks: [{
+				id: "3A75CABE09C9C975"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B0D85DA0CAD53C8"]
+			id: "1F2EBB6012DD9278"
+			tasks: [
+				{
+					id: "7EED1C50A648B592"
+					item: { count: 1, id: "minecraft:glow_ink_sac" }
+					type: "item"
+				}
+				{
+					id: "55DC3C175F1F298C"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					id: "6D52C1870F07D16A"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B0D85DA0CAD53C8"]
+			id: "0E48DFA6774450FB"
+			tasks: [{
+				id: "0A2F7B4622C277D9"
+				item: { count: 1, id: "minecraft:glass_pane" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BE84A67C4F49130"]
+			id: "3CC5FD50C31A14CC"
+			tasks: [
+				{
+					id: "0CCE8D618DAB8542"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					id: "404C799A95574475"
+					item: { count: 1, id: "minecraft:glass_pane" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D988137341AE75D"]
+			icon: {
+				id: "create:spout"
+			}
+			id: "1E9ACA08610D9507"
+			tasks: [{
+				id: "79CF6A07E2BE5B4B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+}
