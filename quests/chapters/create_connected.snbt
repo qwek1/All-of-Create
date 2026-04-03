@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "create_connected"
 	group: "2F8B068425AF05D4"
+	icon: {
+		id: "create_connected:encased_chain_cogwheel"
+	}
 	id: "101AD3797FD8468B"
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,18 +25,11 @@
 		{
 			dependencies: ["4B3DE2788D5D543C"]
 			id: "5C61D230E8A41A99"
-			tasks: [
-				{
-					id: "223C9AD3B75515F5"
-					item: { count: 1, id: "create:brass_ingot" }
-					type: "item"
-				}
-				{
-					id: "1536715B1E8B49AD"
-					item: { count: 1, id: "create:brass_sheet" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1536715B1E8B49AD"
+				item: { count: 1, id: "create:brass_sheet" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: -1.5d
 		}
@@ -110,18 +106,11 @@
 		{
 			dependencies: ["4B3DE2788D5D543C"]
 			id: "29882BA136A365CC"
-			tasks: [
-				{
-					id: "105C3BA7BDB0AFB1"
-					item: { count: 1, id: "minecraft:gold_ingot" }
-					type: "item"
-				}
-				{
-					id: "5576E744B62F17C9"
-					item: { count: 1, id: "create:golden_sheet" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5576E744B62F17C9"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 1.5d
 		}
