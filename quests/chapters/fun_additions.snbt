@@ -268,8 +268,9 @@
 			}
 			id: "70D6A1757904004C"
 			tasks: [{
-				id: "0380B1917D4FC80C"
-				type: "checkmark"
+				id: "44915CC9B104DDED"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
 			}]
 			x: -1.5d
 			y: 1.0d
