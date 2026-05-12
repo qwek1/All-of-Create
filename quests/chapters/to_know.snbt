@@ -17,16 +17,5 @@
 	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "minecraft:stone"
-		}
-		id: "471AF5B3E41F6713"
-		tasks: [{
-			id: "65502B03244DE91B"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [ ]
 }
