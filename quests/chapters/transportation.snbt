@@ -124,8 +124,8 @@
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "1ED49B3DD597FE00"
-				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				id: "4D168EFC75F0CDAE"
+				item: { count: 1, id: "create:propeller" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -150,8 +150,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createornithopterglider:ornithopterglider)item(createornithopterglider:ornithopterglider_orange)item(createornithopterglider:ornithopterglider_magenta)item(createornithopterglider:ornithopterglider_light_blue)item(createornithopterglider:ornithopterglider_yellow)item(createornithopterglider:ornithopterglider_lime)item(createornithopterglider:ornithopterglider_pink)item(createornithopterglider:ornithopterglider_gray)item(createornithopterglider:ornithopterglider_light_gray)item(createornithopterglider:ornithopterglider_cyan)item(createornithopterglider:ornithopterglider_purple)item(createornithopterglider:ornithopterglider_blue)item(createornithopterglider:ornithopterglider_brown)item(createornithopterglider:ornithopterglider_green)item(createornithopterglider:ornithopterglider_red)item(createornithopterglider:ornithopterglider_black))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			id: "2D0BBF1DF08E9BE4"
@@ -292,6 +292,30 @@
 			}]
 			x: 6.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4230AD68B84A6FBE"]
+			id: "673368ABD9144D6D"
+			rewards: [
+				{
+					id: "3EBAE35F7961308C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D4CA4CFB0E3C467"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70CA51D678D2C924"
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 }

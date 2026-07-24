@@ -153,17 +153,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6A4CB4700F0082C6"
-			rewards: [{
-				id: "53680199E84036F9"
-				item: {
-					components: {
-						"ftbquests:missing_item": "alexsmobs:animal_dictionary"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3B2CC7DEE30E3AB8"
 				type: "checkmark"

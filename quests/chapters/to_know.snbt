@@ -17,5 +17,26 @@
 	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "516FAEEB8E9BC5EA"
+			tasks: [{
+				id: "4FDE89A083625754"
+				item: { count: 1, id: "rubberworks:rubber" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "03795968E7FA18BA"
+			tasks: [{
+				id: "23E8F5B36871FD71"
+				item: { count: 1, id: "stockmarket:market_terminal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
 }

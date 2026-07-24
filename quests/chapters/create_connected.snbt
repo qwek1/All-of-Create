@@ -7,7 +7,7 @@
 		id: "create_connected:encased_chain_cogwheel"
 	}
 	id: "101AD3797FD8468B"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -34,6 +34,7 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["5C61D230E8A41A99"]
 			id: "7A22F754E879815D"
 			tasks: [
@@ -104,6 +105,7 @@
 			y: -4.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["4B3DE2788D5D543C"]
 			id: "29882BA136A365CC"
 			tasks: [{
@@ -282,6 +284,9 @@
 		}
 		{
 			dependencies: ["4B3DE2788D5D543C"]
+			icon: {
+				id: "create:andesite_casing"
+			}
 			id: "44160C55DF0D7632"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -334,17 +339,6 @@
 		}
 		{
 			dependencies: ["44160C55DF0D7632"]
-			id: "688D8E84B4745E98"
-			tasks: [{
-				id: "183AEDBE34291D3A"
-				item: { count: 1, id: "create:mechanical_saw" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["688D8E84B4745E98"]
 			id: "05422CBF447A8BB8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -362,17 +356,6 @@
 		}
 		{
 			dependencies: ["44160C55DF0D7632"]
-			id: "597A4A59EAE3731E"
-			tasks: [{
-				id: "550F80C77BEA75E7"
-				item: { count: 1, id: "create:encased_chain_drive" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["597A4A59EAE3731E"]
 			id: "48989B23AE749B26"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -397,18 +380,11 @@
 				table_id: 5001068052608706388L
 				type: "random"
 			}]
-			tasks: [
-				{
-					id: "434D4D9C060FE06A"
-					item: { count: 1, id: "create_connected:crank_wheel" }
-					type: "item"
-				}
-				{
-					id: "52D99AA95908D151"
-					item: { count: 1, id: "create_connected:large_crank_wheel" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "52D99AA95908D151"
+				item: { count: 1, id: "create_connected:large_crank_wheel" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 4.0d
 		}
@@ -421,23 +397,19 @@
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
-			tasks: [
-				{
-					id: "5DF90712F8B72423"
-					item: { count: 1, id: "create:clutch" }
-					type: "item"
-				}
-				{
-					id: "270B295A98C43BA9"
-					item: { count: 1, id: "create_connected:inverted_clutch" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "270B295A98C43BA9"
+				item: { count: 1, id: "create_connected:inverted_clutch" }
+				type: "item"
+			}]
 			x: 3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["44160C55DF0D7632"]
+			icon: {
+				id: "create_connected:inverted_gearshift"
+			}
 			id: "4CFBD72ED6B727D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -445,23 +417,19 @@
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
-			tasks: [
-				{
-					id: "3F990508C160536C"
-					item: { count: 1, id: "create:gearshift" }
-					type: "item"
-				}
-				{
-					id: "45D2E20B07BE68D4"
-					item: { count: 1, id: "create_connected:inverted_gearshift" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45D2E20B07BE68D4"
+				item: { count: 1, id: "create_connected:inverted_gearshift" }
+				type: "item"
+			}]
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["44160C55DF0D7632"]
+			icon: {
+				id: "create_connected:vertical_parallel_gearbox"
+			}
 			id: "6CD9B818ACEC1EF6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -486,6 +454,9 @@
 		}
 		{
 			dependencies: ["44160C55DF0D7632"]
+			icon: {
+				id: "create_connected:vertical_six_way_gearbox"
+			}
 			id: "29F3FCDB8B20E164"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -612,17 +583,6 @@
 		}
 		{
 			dependencies: ["44160C55DF0D7632"]
-			id: "7DD345C2DA956044"
-			tasks: [{
-				id: "3B504AC6565BD2EC"
-				item: { count: 1, id: "create:redstone_link" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["7DD345C2DA956044"]
 			id: "521DBB3674FAC59C"
 			rewards: [{
 				exclude_from_claim_all: true

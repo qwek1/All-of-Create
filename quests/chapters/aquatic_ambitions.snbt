@@ -25,7 +25,7 @@
 			y: -6.5d
 		}
 	]
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -54,6 +54,9 @@
 		}
 		{
 			dependencies: ["47B63CD140F2910E"]
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+			}
 			id: "0F1D3205FB83E2D3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -84,6 +87,9 @@
 		}
 		{
 			dependencies: ["24D3F7C523F5AB0B"]
+			icon: {
+				id: "minecraft:conduit"
+			}
 			id: "540DCA232C7547C7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -120,6 +126,9 @@
 		}
 		{
 			dependencies: ["47B63CD140F2910E"]
+			icon: {
+				id: "minecraft:prismarine"
+			}
 			id: "5912B0FF5824D8FD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -149,6 +158,9 @@
 				"5912B0FF5824D8FD"
 				"0F1D3205FB83E2D3"
 			]
+			icon: {
+				id: "create_aquatic_ambitions:prismarine_alloy"
+			}
 			id: "24D3F7C523F5AB0B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -232,6 +244,9 @@
 		}
 		{
 			dependencies: ["76E85F7EFA6EA920"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
 			id: "4DBD746A7DBD0A18"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -256,6 +271,9 @@
 		}
 		{
 			dependencies: ["53BCB756649D4D2B"]
+			icon: {
+				id: "create:encased_fan"
+			}
 			id: "73CA3C62CBC41E94"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -351,6 +369,9 @@
 		}
 		{
 			dependencies: ["53BCB756649D4D2B"]
+			icon: {
+				id: "create:blaze_burner"
+			}
 			id: "69519BFDAAA790DE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -406,6 +427,7 @@
 			y: -9.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["760251538F4200CF"]
 			icon: {
 				components: {

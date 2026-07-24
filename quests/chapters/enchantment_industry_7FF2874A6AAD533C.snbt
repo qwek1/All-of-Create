@@ -7,7 +7,7 @@
 		id: "create_enchantment_industry:blaze_enchanter"
 	}
 	id: "7FF2874A6AAD533C"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -300,6 +300,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "6C6F7E8DF3ABBCDF"
 				type: "checkmark"

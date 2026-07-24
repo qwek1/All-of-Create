@@ -76,7 +76,7 @@
 			tasks: [
 				{
 					id: "0B75E804CE79EE55"
-					item: { count: 1, id: "farmersdelight:basket" }
+					item: { count: 1, id: "farmersdelight:bamboo_basket" }
 					type: "item"
 				}
 				{
@@ -270,32 +270,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["686C1705E2FEC061"]
-			id: "1A75654A3BC541AC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6CBE3E54A5190928"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					count: 10L
-					id: "11A7684303C4DBE0"
-					item: { count: 1, id: "minecraft:salmon" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "21737EC1890B7DC3"
-					item: { count: 1, id: "minecraft:cod" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["6933441D38037E5A"]
 			id: "1087DA469F3A10E8"
 			rewards: [{
@@ -304,18 +278,11 @@
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
-			tasks: [
-				{
-					id: "20E4C9D1633BB14F"
-					item: { count: 1, id: "createfood:berry_cream_cake_sweet_berry" }
-					type: "item"
-				}
-				{
-					id: "688FBC8C25E819DA"
-					item: { count: 1, id: "createfood:chocolate_cream_cake_butterscotch" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20E4C9D1633BB14F"
+				item: { count: 1, id: "createfood:berry_cream_cake_sweet_berry" }
+				type: "item"
+			}]
 			x: -3.5d
 			y: 3.5d
 		}

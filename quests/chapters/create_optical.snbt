@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_optical"
-	group: "3B8AF43E1258A852"
+	group: "2F8B068425AF05D4"
 	icon: {
 		id: "create_optical:heavy_optical_receptor"
 	}
 	id: "6DA0244FAF097534"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -118,7 +118,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1F2EBB6012DD9278"]
+			dependencies: ["7B0D85DA0CAD53C8"]
 			id: "4865C6C955CF8233"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -159,7 +159,7 @@
 				item: { count: 1, id: "create_optical:beam_focuser" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -194,23 +194,6 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7C268464F6DE1885"]
-			id: "65C171B1CD610846"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3ACA52DEE3D33CE2"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "66C4D74CA00ECD00"
-				item: { count: 1, id: "create_optical:beam_modulator" }
-				type: "item"
-			}]
-			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -293,7 +276,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0E48DFA6774450FB"]
+			dependencies: ["7B0D85DA0CAD53C8"]
 			id: "49E7C672E2F02981"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -310,7 +293,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1E9ACA08610D9507"]
+			dependencies: ["3D988137341AE75D"]
 			id: "10A822934956DF48"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -335,18 +318,18 @@
 				item: { count: 1, id: "minecraft:amethyst_shard" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["7B0D85DA0CAD53C8"]
+			dependencies: ["1BE84A67C4F49130"]
 			id: "3D988137341AE75D"
 			tasks: [{
 				id: "001B94D6270088FF"
 				item: { count: 1, id: "minecraft:tinted_glass" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -382,49 +365,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7B0D85DA0CAD53C8"]
-			id: "1F2EBB6012DD9278"
-			tasks: [
-				{
-					id: "7EED1C50A648B592"
-					item: { count: 1, id: "minecraft:glow_ink_sac" }
-					type: "item"
-				}
-				{
-					id: "55DC3C175F1F298C"
-					item: { count: 1, id: "create:iron_sheet" }
-					type: "item"
-				}
-				{
-					id: "6D52C1870F07D16A"
-					item: { count: 1, id: "create:electron_tube" }
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7B0D85DA0CAD53C8"]
-			id: "0E48DFA6774450FB"
-			tasks: [{
-				id: "0A2F7B4622C277D9"
-				item: { count: 1, id: "minecraft:glass_pane" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["1BE84A67C4F49130"]
+			icon: {
+				id: "minecraft:glass_pane"
+			}
 			id: "3CC5FD50C31A14CC"
 			tasks: [
 				{
+					count: 2L
 					id: "0CCE8D618DAB8542"
 					item: { count: 1, id: "create:iron_sheet" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "404C799A95574475"
 					item: { count: 1, id: "minecraft:glass_pane" }
 					type: "item"
@@ -432,19 +386,6 @@
 			]
 			x: 3.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["3D988137341AE75D"]
-			icon: {
-				id: "create:spout"
-			}
-			id: "1E9ACA08610D9507"
-			tasks: [{
-				id: "79CF6A07E2BE5B4B"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 2.5d
 		}
 	]
 }
