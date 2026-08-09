@@ -7,7 +7,8 @@
 		id: "create_enchantment_industry:blaze_enchanter"
 	}
 	id: "7FF2874A6AAD533C"
-	order_index: 2
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

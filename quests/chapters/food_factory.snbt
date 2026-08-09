@@ -9,6 +9,7 @@
 	id: "7F45DA2E72597ACB"
 	images: [{
 		height: 5.0d
+		id: "4E5A9A024BD0F606"
 		image: "create_confectionery:item/gingerbread_man"
 		rotation: 0.0d
 		width: 5.0d

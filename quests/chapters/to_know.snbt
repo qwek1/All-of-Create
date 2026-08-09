@@ -9,6 +9,7 @@
 	id: "3264D70F279EF89B"
 	images: [{
 		height: 2.0d
+		id: "62F260F0AED744F0"
 		image: "allofcreate:textures/logo.png"
 		rotation: 0.0d
 		width: 4.528301886792453d

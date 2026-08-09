@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "petrochem"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "petrochem:distillation_controller"
+	}
+	id: "5D00450C9C978072"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "296F772007F1207B"
+			tasks: [{
+				id: "5878EAA83E558495"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["296F772007F1207B"]
+			id: "4FB3A17319D75538"
+			tasks: [
+				{
+					id: "4704D420197AEDBB"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					id: "444BF53C94A5070A"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "2091F9BF2D898D29"
+					item: { count: 1, id: "create:whisk" }
+					type: "item"
+				}
+				{
+					id: "2B2A6B7DD5977200"
+					item: { count: 1, id: "create:copper_casing" }
+					type: "item"
+				}
+				{
+					id: "77375DB22AD8007F"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FB3A17319D75538"]
+			id: "4BEDD0E28343D185"
+			tasks: [{
+				id: "73D3F553A920C46E"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BEDD0E28343D185"]
+			id: "0BBC18EB21B23D76"
+			tasks: [
+				{
+					count: 20L
+					id: "367B829CF30A0745"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1CFB687F50EBC60D"
+					item: { count: 1, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BBC18EB21B23D76"]
+			id: "035F309A9521A315"
+			tasks: [{
+				count: 20L
+				id: "6AB094811690CB86"
+				item: { count: 1, id: "petrochem:steel_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4BEDD0E28343D185"
+				"4878481BC40D9A1C"
+			]
+			id: "728A29E3828C6AF3"
+			tasks: [
+				{
+					count: 20L
+					id: "065B0E073FAC2C29"
+					item: { count: 1, id: "petrochem:tin_nugget" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "43CEF7DEBC63C89D"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["728A29E3828C6AF3"]
+			id: "074A1D3CD1DAA784"
+			tasks: [{
+				count: 20L
+				id: "716F860F46175C1E"
+				item: { count: 1, id: "petrochem:bronze_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4FB3A17319D75538"]
+			icon: {
+				id: "create:spout"
+			}
+			id: "562F3395435D71B2"
+			tasks: [
+				{
+					id: "463018A3E601353E"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					id: "66C4017D25BEE298"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["562F3395435D71B2"]
+			id: "17336E4F60113C5C"
+			tasks: [{
+				count: 20L
+				id: "0F4E373B418525A4"
+				item: { count: 1, id: "create:zinc_nugget" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17336E4F60113C5C"]
+			id: "4878481BC40D9A1C"
+			tasks: [{
+				id: "5D381328E7AA1D25"
+				item: { count: 1, id: "petrochem:tin_nugget" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"035F309A9521A315"
+				"074A1D3CD1DAA784"
+			]
+			id: "008A7DD4311C72B0"
+			tasks: [{
+				id: "1176F62D8E0425BF"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["008A7DD4311C72B0"]
+			id: "281B4DE758E99C66"
+			tasks: [
+				{
+					id: "3234C5007BB94241"
+					item: { count: 1, id: "petrochem:bronze_sheet" }
+					type: "item"
+				}
+				{
+					id: "442240F2E348FBF3"
+					item: { count: 1, id: "petrochem:steel_sheet" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["281B4DE758E99C66"]
+			id: "012266C464235C7F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					count: 20L
+					id: "6482012AB7D4D006"
+					item: { count: 1, id: "petrochem:steel_ingot" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1BD8B0D58EFE52D3"
+					item: { count: 1, id: "petrochem:bronze_ingot" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "64EE94AFEB6A6944"
+					item: { count: 1, id: "petrochem:bronze_sheet" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "47A86936C24E62B0"
+					item: { count: 1, id: "petrochem:steel_sheet" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1BD79DB3ABA803EF"
+					item: { count: 1, id: "petrochem:steel_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "50AA9C1D402953CA"
+					item: { count: 1, id: "minecraft:chain" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "71481D94DD419DCC"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43789940B1A2C89F"
+					item: { count: 1, id: "minecraft:barrel" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6C19B56723AC77D3"
+					item: { count: 1, id: "create:propeller" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["012266C464235C7F"]
+			id: "1EB883EB9A8A3785"
+			tasks: [
+				{
+					id: "1236621AEB8F558E"
+					item: { count: 1, id: "petrochem:pumpjack_arm" }
+					type: "item"
+				}
+				{
+					id: "3F88B25F78A349B3"
+					item: { count: 1, id: "petrochem:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "2EEB26F05D2BE12F"
+					item: { count: 1, id: "petrochem:pumpjack_well" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["012266C464235C7F"]
+			id: "13620647285BECBC"
+			tasks: [
+				{
+					id: "6901E5ABF597E8D0"
+					item: { count: 1, id: "petrochem:steel_fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "0E451A652B2D50AC"
+					item: { count: 1, id: "petrochem:steel_fluid_valve" }
+					type: "item"
+				}
+				{
+					id: "3CFA42A826FB76AB"
+					item: { count: 1, id: "petrochem:steel_smart_fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"012266C464235C7F"
+				"699E03EC5E7C4893"
+			]
+			id: "0573A08ED7C44CE6"
+			tasks: [
+				{
+					id: "14149389121EF6A8"
+					item: { count: 1, id: "petrochem:distillation_controller" }
+					type: "item"
+				}
+				{
+					id: "082982137D274CA2"
+					item: { count: 1, id: "petrochem:distillation_output" }
+					type: "item"
+				}
+				{
+					id: "37429F322C752637"
+					item: { count: 1, id: "petrochem:steel_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["012266C464235C7F"]
+			id: "1BDE6FE0A6240485"
+			tasks: [
+				{
+					id: "68677C426723AADE"
+					item: { count: 1, id: "petrochem:flarestack" }
+					type: "item"
+				}
+				{
+					id: "07DB94B1F77492C6"
+					item: { count: 1, id: "petrochem:turbine" }
+					type: "item"
+				}
+				{
+					id: "1772A7A4CA8A3AF2"
+					item: { count: 1, id: "petrochem:electrolyzer" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1EB883EB9A8A3785"]
+			id: "699E03EC5E7C4893"
+			tasks: [{
+				id: "44D3C39E5E2E1A96"
+				item: { count: 1, id: "petrochem:oil_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0573A08ED7C44CE6"]
+			id: "1BE274D820A20F49"
+			tasks: [{
+				id: "42EDB535B9BACB46"
+				item: { count: 1, id: "petrochem:lubricant_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1BE274D820A20F49"]
+			id: "59E136309EBEA188"
+			tasks: [{
+				id: "05A0D033E234DF5F"
+				item: { count: 1, id: "petrochem:medium_engine" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1BE274D820A20F49"]
+			id: "1EA2D92981A22C95"
+			tasks: [{
+				id: "25F8F989349124E0"
+				item: { count: 1, id: "petrochem:small_engine" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.0d
+		}
+	]
+}

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aquatic_ambitions"
-	group: "2F8B068425AF05D4"
+	group: "3B8AF43E1258A852"
 	icon: {
 		id: "minecraft:conduit"
 	}
@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "179495F6D47E8ABF"
 			image: "minecraft:item/trident"
 			rotation: 0.0d
 			width: 1.0d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2E0A9344E6A5C0FC"
 			image: "minecraft:textures/mob_effect/conduit_power.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -25,7 +27,7 @@
 			y: -6.5d
 		}
 	]
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

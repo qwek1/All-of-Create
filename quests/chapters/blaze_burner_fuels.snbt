@@ -7,7 +7,8 @@
 		id: "create_blaze_burner_fuels:blaze_core"
 	}
 	id: "575734E000B89C62"
-	order_index: 3
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

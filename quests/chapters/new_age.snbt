@@ -7,7 +7,8 @@
 		id: "create_new_age:generator_coil"
 	}
 	id: "016D52CB8F1295E5"
-	order_index: 2
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

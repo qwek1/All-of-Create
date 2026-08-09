@@ -7,6 +7,7 @@
 		id: "immersive_aircraft:biplane"
 	}
 	id: "42A2A61E91FED9D3"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

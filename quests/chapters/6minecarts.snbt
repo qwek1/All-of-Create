@@ -7,6 +7,7 @@
 		id: "minecraft:minecart"
 	}
 	id: "1B0C12C08F8F51A6"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
