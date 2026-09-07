@@ -20,13 +20,23 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "3079DF976F5290C3"
+			tasks: [{
+				id: "6B61F6637012CED5"
+				item: { components: { "ftbquests:missing_item": "aeroclaims:claim_block" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
 			id: "516FAEEB8E9BC5EA"
 			tasks: [{
 				id: "4FDE89A083625754"
 				item: { count: 1, id: "rubberworks:rubber" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -36,7 +46,7 @@
 				item: { count: 1, id: "stockmarket:market_terminal" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 	]

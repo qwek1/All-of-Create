@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "egetting_started"
+	group: "78A51F76210E9975"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "5DCD8A027DDCC18B"
+	images: [{
+		height: 2.0d
+		id: "618C55DF7BC26ACF"
+		image: "allofcreate:textures/logo.png"
+		rotation: 0.0d
+		width: 4.528301886792453d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "allofcreate:textures/logo_full.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "52E043CA3F3DADF1"
+			rewards: [
+				{
+					count: 10
+					id: "0CAD4CB0A3581484"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_rice"
+					}
+					type: "item"
+				}
+				{
+					id: "0163F2708C5904B4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "76956A772FFC0B26"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52E043CA3F3DADF1"]
+			id: "19C5853C695A22A7"
+			rewards: [{
+				id: "3AC48460B6E927A3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6D44609A3C80094A"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52E043CA3F3DADF1"]
+			id: "6997BE357A2624B1"
+			rewards: [{
+				id: "61088DA55A7FC757"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "65E078BA066318C3"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ecopper_age"
+	group: "78A51F76210E9975"
+	icon: {
+		id: "create:copper_casing"
+	}
+	id: "109548EFF2C9417E"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B0E9E7992D52704"
+			tasks: [{
+				count: 10L
+				id: "1C333CAC6E558800"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B0E9E7992D52704"]
+			id: "25DABD7C2D1C733C"
+			rewards: [{
+				id: "70E566E61E1BC2A0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0836404EAC86BFDD"
+				item: { count: 1, id: "create:copper_diving_helmet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B0E9E7992D52704"]
+			id: "48FF65D5CA0A9DB0"
+			rewards: [{
+				id: "6F9D4DBEE8C562BA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6C7C95F7ABCD57C6"
+				item: { count: 1, id: "create:copper_backtank" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B0E9E7992D52704"]
+			id: "053A085A1D02EEF0"
+			rewards: [{
+				id: "3B643747BDFAE55C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2BBB02BFDF9ABA0A"
+				item: { count: 1, id: "create:copper_diving_boots" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25DABD7C2D1C733C"]
+			id: "3579EE70549D6DBF"
+			rewards: [{
+				id: "47B91349C7344C06"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "38594D3ECA84F494"
+				item: { count: 1, id: "create:netherite_diving_helmet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48FF65D5CA0A9DB0"]
+			id: "4B68D3819B6C8246"
+			rewards: [{
+				id: "2C73A412573F3AA9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "07C5A9F23F71CFA5"
+				item: { count: 1, id: "create:netherite_backtank" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["053A085A1D02EEF0"]
+			id: "5731A22D8497D62A"
+			rewards: [{
+				id: "1E0BA74AC3DE8849"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "58BFDAF8D06BF7CD"
+				item: { count: 1, id: "create:netherite_diving_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B0E9E7992D52704"]
+			id: "46118D84C56B11A7"
+			rewards: [{
+				id: "7B733D6C39291943"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "145DF5712A3FB7C1"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "26448F616ABCCAF2"
+			rewards: [
+				{
+					id: "3BF8EC9AFB689134"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A43C17262DDDD9F"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3EEA0F1326952060"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "1DAB0F69BE29D8C5"
+			rewards: [
+				{
+					id: "7754E7DA1628CD74"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "07B17C5C689C63DC"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52A2816AAC06CA36"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "3EFFE57B6593F780"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "0C59E0866E7EFBF3"
+			rewards: [
+				{
+					id: "1E93DFCAE0129A4B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29F2CE98163D75CE"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3907187B3840BB04"
+				item: { count: 1, id: "create:portable_fluid_interface" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "30D5CEA810CE1978"
+			rewards: [
+				{
+					id: "256B845EAB26A14D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59065699879E2C5B"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57BE60BEC3344605"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "2005FA370149167D"
+			rewards: [
+				{
+					id: "488DA9FC627C7888"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C4A334D70FC4BC3"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4E7506FBCD5220D6"
+				item: { count: 1, id: "create:item_drain" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "1A389BBE7CDB0F96"
+			rewards: [
+				{
+					id: "69F3EF7444168420"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75428B1D9836F4D5"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2878ECF2B27B7D00"
+				item: { count: 1, id: "create:hose_pulley" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A389BBE7CDB0F96"]
+			id: "28E2042CD660FE69"
+			rewards: [{
+				id: "79CCC53A4773F12F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				id: "39ED675681947089"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46118D84C56B11A7"]
+			id: "59BADF38D316E33E"
+			rewards: [
+				{
+					id: "6B5DD80276FED1DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3843EF3381EAC36F"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D89BE2F3426E5EA"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34193CC92ACAB79D"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+}

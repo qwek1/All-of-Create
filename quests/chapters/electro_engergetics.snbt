@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "electro_engergetics"
-	group: "2F8B068425AF05D4"
+	group: "3B8AF43E1258A852"
 	icon: {
 		id: "electroenergetics:connector"
 	}
 	id: "24A2B97480385AEB"
 	images: [ ]
-	order_index: 7
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -97,7 +97,7 @@
 			tasks: [{
 				count: 6L
 				id: "3EC6F8C949B9576E"
-				item: { count: 1, id: "minecraft:dried_kelp" }
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
 				type: "item"
 			}]
 			x: 6.0d
