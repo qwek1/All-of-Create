@@ -127,7 +127,7 @@
 			hide_until_deps_visible: true
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
